@@ -8,13 +8,15 @@
 <body>
     <header>
         <h1>Museu do Videogame</h1>
-        <nav>
-            <a href="#intro">Introdução</a>
-            <a href="#spacewar">Spacewar!</a>
-            <a href="#pong">Pong</a>
-            <a href="#atari">Atari</a>
-            <a href="#space_invaders">Space Invaders</a>
-            <a href="#biografia">Biografia da Curadora</a>
+        <nav aria-label="Menu de Navegação Principal">
+            <ul>
+                <li><a href="#intro">Introdução</a></li>
+                <li><a href="#spacewar">Spacewar!</a></li>
+                <li><a href="#pong">Pong</a></li>
+                <li><a href="#atari">Atari</a></li>
+                <li><a href="#space_invaders">Space Invaders</a></li>
+                <li><a href="#biografia">Biografia da Curadora</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -26,57 +28,158 @@
             <p>
                 Bem vindo ao Museu do Videogame, onde você poderá acompanhar a linha do tempo da criação e da<br>
                 evolução do mercado de jogos até os dias atuais. <br>
-                <br>
+            </p>
+            <p>
                 Aqui você poderá saber mais sobre a criação do primeiro videogame comercial da história, o <strong>Spacewar</strong><br>
                 e também saber como ele originou o primeiro grande marco histórico da indústria, o <strong>Pong</strong>, além disso, você<br>
-                também poderá acompanhar a evolução do mercado para se tornar mais acessível para o público geral, assim<br>
+                também poderá acompanhar a evolução do mercado até ele se tornar mais acessível para o público geral, assim<br>
                 como o crescimento das empresas conhecidas pela criação e distribuição dos jogos.<br>
-                <br>
-                Sinta-se a vontade para explorar nossas exposições iniciais, sendo elas:
-                <ul>
-                    <li><a href="#spacewar"><strong>Spacewar!</strong></a></li>
-                    <li><a href="#pong"><strong>Pong</strong></a></li>
-                    <li><a href="#atari"><strong>Atari</strong></a></li>
-                    <li><a href="#space_invaders"><strong>Space Invaders</strong></a></li>
-                </ul>
             </p>
+            <p>
+                Sinta-se a vontade para explorar nossas exposições iniciais, sendo elas:
+            </p>
+            <ul>
+                <li><a href="#spacewar"><strong>Spacewar!</strong></a></li>
+                <li><a href="#pong"><strong>Pong</strong></a></li>
+                <li><a href="#atari"><strong>Atari</strong></a></li>
+                <li><a href="#space_invaders"><strong>Space Invaders</strong></a></li>
+            </ul>
         </section>
 
         <!--Alas do Museu-->
         <section>
+            <h2 id="exposicoes">Exposições</h2>
             <article id="spacewar">
-                <h2>Spacewar!</h2>
+                <h3>Spacewar!</h3>
+                <figure>
+                    <img src="imgs/img-spacewar1.jpg" alt="foto de um computador com o jogo Spacewar!" width="300px">
+                    <figcaption>Computador rodando o jogo Spacewar!</figcaption>
+                </figure>
+                <figure>
+                    <img src="imgs/img-spacewar2.jpg" alt="foto antiga dos criadores do jogo Spacewar!" width="300px">
+                    <figcaption>Os criadores testando o jogo Spacewar!</figcaption>
+                </figure>
                 <p>
-                    aaaa
+                    <strong>Spacewar!</strong> é amplamente reconhecido como um marco na história dos videogames, não apenas pela sua inovação técnica,<br>
+                    mas também pelo impacto cultural. Desenvolvido em 1962 no MIT por Steve Russell, Martin Graetz e Wayne Wiitanen,<br>
+                    o jogo foi projetado para o computador PDP-1, uma máquina revolucionária para a época.<br>
+                    No jogo, duas naves espaciais duelavam ao redor de uma estrela central, cuja gravidade representava um desafio adicional.
                 </p>
+                <p>
+                    <strong>Curiosidade 1:</strong> <strong>Spacewar!</strong> não foi criado para fins comerciais, mas como uma demonstração do potencial do PDP-1.<br>
+                    Os desenvolvedores queriam mostrar como um computador podia oferecer experiências interativas em tempo real.<br>
+                    Isso era algo inédito na época, já que a maioria dos computadores era usada apenas para cálculos matemáticos.
+                </p>
+                <p>
+                    <strong>Curiosidade 2:</strong> A comunidade acadêmica abraçou a ideia do jogo como uma ferramenta de aprendizado.<br>
+                    Universidades que possuíam o PDP-1 compartilhavam o código de <strong>Spacewar!</strong>, permitindo que estudantes adicionassem novas funcionalidades.<br>
+                    Isso transformou o jogo no primeiro exemplo de uma cultura de desenvolvimento colaborativo, algo que hoje é comum no mundo do software livre.
+                </p>
+                <blockquote>
+                    "<strong>Spacewar!</strong> foi mais do que um jogo; foi uma revolução silenciosa que abriu as portas para o futuro da interatividade." – Steve Russell
+                </blockquote>
             </article>
 
             <article id="pong">
-                <h2>Pong</h2>
+                <h3>Pong</h3>
+                <figure>
+                    <img src="imgs/img-pong1.webp" alt="foto de uma das máquinas originais do Pong" height="250px">
+                    <figcaption>Uma das máquinas originais do <strong>Pong</strong></figcaption>
+                </figure>
+                <figure>
+                    <img src="imgs/img-pong2.jpeg" alt="foto antiga dos criadores do jogo Pong" width="300px">
+                    <figcaption>Os criadores do jogo <strong>Pong</strong></figcaption>
+                </figure>
                 <p>
-                    aaaa
+                    Em 1972, a Atari lançou <strong>Pong</strong>, um jogo simples, mas revolucionário, que simbolizou o início da era dos videogames comerciais.<br>
+                    Projetado por Allan Alcorn como um experimento interno, o jogo rapidamente se tornou um sucesso global e pavimentou o caminho<br>
+                    para a indústria bilionária que conhecemos hoje. O impacto cultural de <strong>Pong</strong> não pode ser subestimado. Ele foi responsável por<br>
+                    popularizar os arcades, transformando-os em pontos de encontro sociais. Durante os anos 1970, bares, restaurantes e shoppings<br>
+                    investiram pesadamente em máquinas de arcade, e <strong>Pong</strong> era quase sempre o principal atrativo.
                 </p>
+                <p>
+                    <strong>Curiosidade 1:</strong> O conceito por trás de <strong>Pong</strong> era baseado em um jogo de tênis eletrônico que Nolan Bushnell havia visto<br>
+                    no console <i>Magnavox Odyssey.</i> No entanto, a versão da Atari foi refinada para tornar a experiência mais acessível e intuitiva.<br>
+                    Por exemplo, ao contrário do <i>Odyssey</i>, <strong>Pong</strong> usava controles com potenciômetros que permitiam ao jogador mover as barras com precisão.
+                </p>
+                <p>
+                    <strong>Curiosidade 2:</strong> A simplicidade de <strong>Pong</strong> era uma de suas maiores forças. O jogo envolvia apenas duas barras e uma "bola",<br>
+                    mas sua mecânica altamente viciante foi suficiente para capturar a atenção de jogadores de todas as idades. Apesar de não ter um "final", <strong>Pong</strong><br>
+                    incentivava a competição ao exibir pontuações, transformando as partidas em verdadeiros desafios entre amigos.
+                </p>
+                <blockquote>
+                    "<strong>Pong</strong> foi o primeiro jogo a mostrar que os videogames não eram apenas uma curiosidade tecnológica, mas uma nova forma<br>
+                    de entretenimento com o poder de unir pessoas." – Allan Alcorn
+                </blockquote>
             </article>
 
             <article id="atari">
-                <h2>Atari</h2>
+                <h3>Atari</h3>
+                <figure>
+                    <img src="imgs/img-atari1.webp" alt="foto do console Atari 2600" width="300px">
+                    <figcaption>O primeiro console da empresa <i>Atari</i>, o <strong>Atari 2600</strong></figcaption>
+                </figure>
+                <figure>
+                    <img src="imgs/img-atari2.webp" alt="foto do criador da empresa Atari" width="300px">
+                    <figcaption>O fundador da empresa <i>Atari</i>, Nolan Bushnell</figcaption>
+                </figure>
                 <p>
-                    aaaaa
+                    Fundada em 1972 por Nolan Bushnell e Ted Dabney, a <strong>Atari</strong> foi uma das empresas mais influentes na história dos videogames,<br>
+                    sendo responsável por transformar o mercado de jogos em um fenômeno global. Seu console mais icônico, o <strong>Atari 2600</strong>, lançado em 1977,<br>
+                    trouxe os videogames para dentro das casas das pessoas, marcando o início da era dos consoles domésticos.
                 </p>
+                <p>
+                    <strong>Curiosidade 1:</strong> O <strong>Atari 2600</strong> foi o primeiro console a permitir o uso de cartuchos intercambiáveis, revolucionando a maneira como os<br>
+                    jogos eram distribuídos. Isso deu aos jogadores a possibilidade de escolher entre uma biblioteca crescente de títulos, desde clássicos como<br>
+                    <i>Asteroids</i> até aventuras mais criativas como <i>Pitfall!</i>.
+                </p>
+                <p>
+                    <strong>Curiosidade 2:</strong> Apesar de seu sucesso inicial, o <strong>Atari</strong> enfrentou dificuldades durante o famoso <i>Crash dos Videogames de 1983</i>,<br>
+                    um colapso do mercado causado pelo excesso de jogos de baixa qualidade e pela falta de controle criativo. No entanto, mesmo após esse período turbulento,<br>
+                    a marca <strong>Atari</strong> permaneceu como um símbolo cultural importante na história dos jogos.
+                </p>
+                <blockquote>
+                    "O <strong>Atari</strong> foi mais do que uma empresa; foi o catalisador de uma revolução que mudou a maneira como o mundo se diverte." – Nolan Bushnell
+                </blockquote>
             </article>
 
             <article id="space_invaders">
-                <h2>Space Invaders</h2>
+                <h3>Space Invaders</h3>
+                <figure>
+                    <img src="imgs/img-space_invaders1.avif" alt="foto de uma das máquinas originais do Space Invaders" height="300px">
+                    <figcaption>Uma das máquinas originais do <strong>Space Invaders</strong></figcaption>
+                </figure>
+                <figure>
+                    <img src="imgs/img-space_invaders2.webp" alt="foto do criador do jogo Space Invaders" height="300px">
+                    <figcaption>O criador do jogo <strong>Space Invaders</strong></figcaption>
+                </figure>
                 <p>
-                    aaaaa
+                    Lançado em 1978, <strong>Space Invaders</strong>, criado por Tomohiro Nishikado, foi um divisor de águas na indústria dos jogos.<br>
+                    O jogo desafiava os jogadores a defenderem a Terra contra ondas crescentes de alienígenas, em um cenário que introduziu<br>
+                    conceitos fundamentais como dificuldade progressiva e jogabilidade estratégica.
                 </p>
+                <p>
+                    <strong>Curiosidade 1:</strong> O impacto de <strong>Space Invaders</strong> foi tão grande que, no Japão, as moedas de 100 ienes (usadas para jogar)<br>
+                    começaram a faltar em várias regiões. O governo precisou intervir para aumentar a produção de moedas, tamanha a popularidade do jogo.
+                </p>
+                <p>
+                    <strong>Curiosidade 2:</strong> <strong>Space Invaders</strong> foi pioneiro no uso de música dinâmica para intensificar a experiência do jogador.<br>
+                    À medida que os alienígenas se aproximavam, o ritmo da música acelerava, criando um senso de urgência e tensão que até então era inédito nos jogos.<br>
+                    Esse recurso inspirou muitos outros títulos a explorarem música como uma ferramenta narrativa.
+                </p>
+                <blockquote>
+                    "Com <strong>Space Invaders</strong>, os jogos deixaram de ser apenas uma diversão casual para se tornarem uma forma de arte imersiva e emocional." – Tomohiro Nishikado
+                </blockquote>
             </article>
         </section>
 
         <section>
             <article id="biografia">
                 <h2>Biografia da Curadora</h2>
-                <img src="imgs/img-biografia-lila.png" width="200px" alt="Desenho da curadora">
+                <figure>
+                    <img src="imgs/img-biografia-lila.png" width="200px" alt="Desenho da curadora Lila Maria">
+                    <figcaption>A curadora do museu, Lila Maria</figcaption>
+                </figure>
                 <h3>Lila Maria</h3>
                 <ul>
                     <li>Gosta de desenhar</li>
@@ -95,7 +198,8 @@
     <footer>
         <p>
             Criado por <a href="https://github.com/lila1702" target="_blank">Lila Maria</a><br>
-            Disciplina de Desenvolvimento de Software para a Web 2024.2
+            Disciplina de Desenvolvimento de Software para a Web 2024.2<br>
+            &copy; 2024 Museu do Videogame. Todos os direitos reservados.
         </p>
         <img src="imgs/img-ufc-russas.png" alt="Logo da UFC Russas" width="200px">
     </footer>
